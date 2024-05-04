@@ -1,0 +1,154 @@
+/* .sec-icon {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+  } */
+
+.advertisers-service-sec .service-card {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px 40px 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  background: #fff;
+
+}
+
+.colsm {
+  margin: 50px 20px 50px 0px;
+
+}
+
+.advertisers-service-sec .service-card::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f5c072, #b91c1c);
+  position: absolute;
+  left: 0%;
+
+  top: -99%;
+  z-index: -2;
+  transition: all 0.4s cubic-bezier(0.77, -0.04, 0, 0.99);
+}
+
+.advertisers-service-sec .texttimes1 {
+  font-size: 20px;
+  color: #af1414;
+  padding: 15px 30px 0px 10px;
+  font-weight: 700;
+  z-index: 3;
+}
+
+.advertisers-service-sec .textaward1 {
+  font-size: 17px;
+  padding: 0px 10px 0px 10px;
+}
+
+
+
+.advertisers-service-sec .service-card:hover:after {
+  top: 0%;
+}
+
+
+
+
+.advertisers-service-sec .service-card:hover .texttimes1 {
+  color: #ffffff;
+}
+
+.advertisers-service-sec .service-card:hover .textaward1 {
+  color: #f0f0f0;
+}
+
+/* ADVERTISERS SERVICE CARD ENDED */
+
+/* .imgaward1 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+} */
+
+
+.bg01 {
+  padding: 60px 0px 100px 0px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+
+.backgroundimg {
+  background-repeat: no-repeat !important;
+  background-size: fill !important;
+  background-position: 10% 90% !important;
+
+  padding: 0px 0px;
+}
+
+.bg011 {
+  background-color: #f4f2f234;
+
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: 10% 90% !important;
+  padding: 1px 0px 50px 0px;
+  margin-top: -39px;
+}
+
+
+/* .bg012 {
+  background-color: #f4f2f242;
+  padding: 0px 0px 50px 0px;
+  margin-top: 10px;
+} */
+
+/* .backg4 {
+  background-color: #e0dcdc;
+} */
+
+.img-wrapper {
+
+  overflow: hidden;
+
+}
+
+
+
+.bg019 {
+
+  padding: 30px 0px 30px 47px;
+  background-color: #e0dcdc54;
+}
+
+/* .imghh {
+  width: 655px;
+  height: 320px !important;
+}
+
+.imhgsd {
+  width: 350px;
+  height: 320px !important;
+} */
+
+.logosgd {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+}
+
+.logosgdcard {
+  margin: 10px;
+  box-shadow: 1px 1px 5px #d0d0d0;
+  border: none;
+  border-radius: 0px;
+}
